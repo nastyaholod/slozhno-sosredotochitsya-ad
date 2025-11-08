@@ -1,4 +1,28 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-color: #000028;
+  --color_header-title: #DB00FF;
+  --color_section-title: #FF0070;
+  --color_bloks-title: #000028;
+  --color_paragraph-title: #000028;
+  --color_paragraph: #F1B2CE;
+  --color_header-buttons: #FF0070;
+  --color_blocks: #FF0070;
+  --color_elements: #FF0070;
+  --color_button-hover: #FF007066;
+  --shadow-title: 4px 4px 0 #FF0070;
+  --shadow-main_link: 1.5px 1.5px 0 #FF0070;
+  --shadow-ellips: 0 0 4px #FF0070;
+  --font-style-normal: Regular;
+  --font-style-bold: bold;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --font-family: 'IBM Plex mono', monospace;
+  --font-size-paragraph: 18px;
+  --font-size-h2-title: 18px;
+  --font-size-h3-title: 18px;
+  --font-size-h4-title: 18px;
+  --font-size-header-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-line-heigth-heading-title: 83%;
+  --font-line-heigth: 23.4px;
+  --bg-img: url('../images/cover-image-dark.png');
+}

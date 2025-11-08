@@ -22,6 +22,49 @@ p {
   margin: 0;
 }
 
+h1 {
+  font-size: var(--font-size-header-title);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  color: var(--color_header-title);
+  line-height: var(--font-line-heigth-heading-title);
+  text-shadow: var(--shadow-title);
+}
+
+h2 {
+  font-size: var(--font-size-h2-title);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  color: var(--color_section-title);
+  line-height: var(--font-line-heigth);
+}
+
+h3 {
+  font-size: var(--font-size-h3-title);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family);
+  color: var(--color_bloks-title);
+  line-height: var(--font-line-heigth);
+  background-color: var(--color_blocks);
+}
+
+h4 {
+  font-size: var(--font-size-h4-title);
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-family);
+  color: var(--color_paragraph-title);
+  line-height: var(--font-line-heigth);
+  background-color: var(--color_blocks);
+}
+
+p {
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-family);
+  color: var(--color_paragraph);
+  line-height: var(--font-line-heigth);
+}
+
 ul {
   margin: 0;
   padding: 0;
